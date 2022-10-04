@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+li{
+  list-style: none
+}
+a {
+ text-decoration: none;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.navbar1 {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar1 a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.navbar2 {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar2 a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+   

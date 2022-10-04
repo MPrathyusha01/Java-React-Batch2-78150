@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>log in</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+  <style>   
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: black;  
+}  
+button {   
+       background-color: black;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 10%;   
+        background-color: white;  
+    }   
+</style>
+<body>
+    <nav >
+    <div class = "navbar">
+  <ul class = "navlinks">
+ 
+  <a href=signup.html>Signin</a>  
+    <a href=login.html>Login</a>
+  <li><a href=products.html>Life style Stores</a></li>
+</ul>
+      </div>
+  </nav>
+    <form>
+        <div class="container">
+          <h2>LOGIN</h2>
+          <p>Login to make a purchase </p>
+          <hr>
+        <p>
+          <label for="email"><b></b></label>
+          <input type="text" placeholder="E-mail" name="email"  required>
+        </p>
+        <p>
+          <label for="psw"><b></b></label>
+          <input type="password" placeholder="Password" name="psw"  required>
+        </p>
+
+          <button>Login</button>
+
+          <p>Don't have an account? <a href=signup.html> Register</a></p>
+      
+          
+          <hr>
+      
+          
+      </form>
+  <footer>
+        Copyright &copy; Lifestyle stores. All rights are reserved. Contact us on +91 90000 90000
+    </footer> 
+</body>
+</html>
